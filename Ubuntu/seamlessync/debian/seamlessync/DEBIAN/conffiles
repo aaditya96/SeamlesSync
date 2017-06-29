@@ -1,0 +1,2 @@
+/etc/network/if-post-down.d/seamlessync-down
+/etc/network/if-up.d/seamlessync-up

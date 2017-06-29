@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: seamlessync
+Version: 0.1
+Summary: Easiest way to keep files in sync
+Home-page: UNKNOWN
+Author: Aaditya Pandilwar
+Author-email: aadityap.pandilwar@gmail.com
+License: UNKNOWN
+Description: SeamlesSync keeps files in your Android device synchronized
+        with desktop files over the home Wi-Fi network
+        with automated backups architecture
+Platform: UNKNOWN
+Requires: pyftpdlib
+Requires: pyOpenSSL
+Provides: seamlessync
+Provides: seamlessync_lib

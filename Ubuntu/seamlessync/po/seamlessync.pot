@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-16 23:46+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/ui/ConfirmdeviceDialog.ui.h:1
+msgid ""
+"Is this your Device?\n"
+"MAC Address:\n"
+"IP Address:"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:1
+msgid "Seamlessync"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:2
+msgid "_File"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:3
+msgid "_Edit"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:4
+msgid "_View"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:5
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:6
+msgid "Contents"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:7
+msgid "Initiate Connection"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:8
+msgid "IP Address :"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:9
+msgid "Port Number :"
+msgstr ""
+
+#: ../data/ui/SeamlessyncWindow.ui.h:10
+msgid "Cancel"
+msgstr ""
+
+#. ('/etc/seamlessync',['files/seamlessync.cnf']),
+#: ../data/ui/UnknowndeviceDialog.ui.h:1
+msgid ""
+"Unknown Device trying to \n"
+"connect, restart the \n"
+"application to configure \n"
+"your device."
+msgstr ""
+
+#: ../data/ui/ForgetconfigDialog.ui.h:1
+msgid ""
+"The application is configured properly \n"
+"for your Android device and Router.\n"
+"Use the Android app for backup \n"
+"related settings"
+msgstr ""
+
+#: ../data/ui/SetupdoneDialog.ui.h:1
+msgid ""
+"Congratulations!\n"
+"Device set up properly"
+msgstr ""
+
+#: ../data/ui/PreferencesSeamlessyncDialog.ui.h:1
+msgid "Seamlessync Preferences"
+msgstr ""
+
+#: ../data/ui/PreferencesSeamlessyncDialog.ui.h:2
+msgid "_Example entry:"
+msgstr ""
+
+#: ../seamlessync/__init__.py:36
+msgid "Show debug messages (-vv debugs seamlessync_lib also)"
+msgstr ""

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\fr.tvbarthel.blurdialogfragment\lib\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="018eba5f797692cfea759c7b4c00d13708229765">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\fr.tvbarthel.blurdialogfragment-lib-2.2.0_5cddab2190c94b4794d76dbfe13d22fcc717b5b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-22.2.1_275bc558c1d3325cbeb2f5063c41d0c6b4912a63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\libs\commons-net-3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="342fc284019f590e1308056990fdb24a08f06318">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\commons-net-3.5_803546179debe7dbe5aea6cc3e4b6190b6a0fa57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.github.ViksaaSkool\AwesomeSplash\v1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6924ef2127a1fb106d13d701c25b2688223c0fad">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.github.ViksaaSkool-AwesomeSplash-v1.0.0_658a5222312ef90654cf52ffc4aca67a68171631.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay Patel\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.0_dd317afe55551b0cb4c184f68e8d8daa61504203.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay Patel\.gradle\caches\modules-2\files-2.1\com.netflix.rxjava\rxjava-core\0.20.7\79abf98a7acac3ffb7fec527847accf23de02bdd\rxjava-core-0.20.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="79abf98a7acac3ffb7fec527847accf23de02bdd">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\rxjava-core-0.20.7_78c084ad53270a602b9bed16b1779fc6fe0c3520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.0_403be4ac85c8aee798356676df86c9720f2b7290.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.0_781f6dd33cbe3c99d9850a3d81f523b4380f5fdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\libs\internal_impl-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.0_d433dfcfa6061917ef3694a1028d571922ed7e90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.turhanoz.android\reactivedirectorychooser\0.0.13\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0e6f8ce3e9d88c8dcb95fe42c0cb93b12fb1259a">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.turhanoz.android-reactivedirectorychooser-0.0.13_3199c1affd8cb65feda5a1730c8fa865f2389aea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="68ba6e2ab15265c63c897d5b72736c4070347c52">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\instant-run_327229eaa2c570e80023b56b285cd1f2bd21344f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay Patel\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\library-2.4.0_895f7a8fb96d93196e7e0fa127fe4dd46e3cdf87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay Patel\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0_4cadb3e82323d978c4742dce894805d0580a44d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.github.jorgecastilloprz\fillableloaders\1.02\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09d89c0a8e2ba8d2fd5e7110d62bc6916d642567">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.github.jorgecastilloprz-fillableloaders-1.02_efc849bee76b69ca0e8f09cf8a9bbdb5c3960ca6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.0_e59e77f78a589db53f3b23ed24323d77c83a784c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.0_eb8286370d85b24119a6dea71668437308732ab0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.daimajia.androidanimations-library-1.1.3_e4c59a8b14ca2b22898302d533d8d517c5042179.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="314c7e622c7b3c0caf5e79cb8b9d9ec4ac96d468">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_9ba86a73518daff833b24a3183de229836c85629.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.github.ozodrukh-CircularReveal-1.1.1_ebdeb21a03e8799c0952fcd0b530682a3cff04dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.daimajia.easing-library-1.0.1_5063d65dec79abb7c87c36c44addd7e580f45d01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay Patel\.gradle\caches\modules-2\files-2.1\com.netflix.rxjava\rxjava-android\0.20.7\e12fcefbbefd5a9c50585e839449117209128ddf\rxjava-android-0.20.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e12fcefbbefd5a9c50585e839449117209128ddf">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\rxjava-android-0.20.7_ab332a3e1714542fe9eeadbb4b079d255ddf195d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\design\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.1.0_02f3042c280c1b7eed3641998e1cc0670a63f650.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GIT\SeamlesSync\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="E:\GIT\SeamlesSync\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.1.0_695cbe5c26729f63754cde2877e6dd2eefbb3696.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exponentcoders.seamlessync">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_Screen">
+
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name=".MainActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Runonce">
+        </activity>
+
+        <activity android:name=".add_device"/>
+          <service android:name=".FileObserverService" />
+        <receiver   android:name=".AlarmBroadcastReceiver"></receiver>
+        <receiver android:name=".Wifi_connection_detector">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".NetworkMonitor"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".DataTransfer"
+            android:enabled="true"
+            android:exported="true"></service>
+
+    </application>
+
+</manifest>

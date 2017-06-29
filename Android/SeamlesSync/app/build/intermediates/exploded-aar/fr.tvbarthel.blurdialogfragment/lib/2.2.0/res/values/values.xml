@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/tbarthel/Documents/GitHub/BlurDialogFragment/lib/src/main/res/values/bools.xml -->
+    <eat-comment/>
+    <bool name="blur_dialog_has_bottom_navigation_bar">true</bool>
+    <!-- From: file:/C:/Users/tbarthel/Documents/GitHub/BlurDialogFragment/lib/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="blur_dialog_animation_duration">300</integer>
+    <!-- From: file:/C:/Users/tbarthel/Documents/GitHub/BlurDialogFragment/lib/src/main/res/values/style.xml -->
+    <eat-comment/>
+    <style name="BlurDialogFragment.Default.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/default_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/default_dialog_out</item>
+    </style>
+</resources>

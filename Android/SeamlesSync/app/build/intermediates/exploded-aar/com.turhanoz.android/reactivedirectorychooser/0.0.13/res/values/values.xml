@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/turhan/AndroidStudioProjects/OpenSource/ReactiveDirectoryChooser/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ReactiveDirectoryChooser</string>
+    <string name="directory_name">Create new directory</string>
+    <string name="directory_name_instruction">Please enter the name of the new Directory you want to create : </string>
+    <string name="operation_not_allowed">Operation not allowed.</string>
+    <string name="select">Select</string>
+    <!-- From: file:/Users/turhan/AndroidStudioProjects/OpenSource/ReactiveDirectoryChooser/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

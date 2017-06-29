@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:duration="@integer/blur_dialog_animation_duration"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0" />
+</set>
+<!-- From: file:/C:/Users/tbarthel/Documents/GitHub/BlurDialogFragment/lib/src/main/res/anim/default_dialog_out.xml -->

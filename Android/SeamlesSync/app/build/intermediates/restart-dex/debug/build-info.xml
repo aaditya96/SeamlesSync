@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="19"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="128564831779069"
+    token="5762677269428355486"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2180" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2630" />
+    <task
+        name="verifier"
+        duration="698" />
+
+    <artifact
+        location="E:\GIT\SeamlesSync\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="128564831779069"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\GIT\SeamlesSync\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

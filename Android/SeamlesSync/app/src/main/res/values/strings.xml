@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SeamlesSync</string>
+
+    <string name="ipaddress">IPaddress</string>
+    <string name="port">Port no.</string>
+
+</resources>

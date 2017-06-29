@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/tbarthel/Documents/GitHub/BlurDialogFragment/lib/src/main/res/values-sw720dp-land/bools.xml -->
+    <eat-comment/>
+    <bool name="blur_dialog_has_bottom_navigation_bar">true</bool>
+</resources>

@@ -1,0 +1,112 @@
+#! /usr/bin/python
+
+import re, os, sys
+import subprocess, ConfigParser
+
+from pyftpdlib.authorizers import DummyAuthorizer
+from pyftpdlib.handlers import FTPHandler
+from pyftpdlib.servers import FTPServer
+import threading
+
+#MyAPMAC = "30:b5:c2:90:b6:ce"
+
+#MyAPMAC = re.findall("([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})",output.rstrip())
+
+#MyIP = str(commands.getoutput("ip addr | grep inet[^6] | grep -v 127.0.0.1 | awk {'print $2'} | sed 's!/[0-9]*!!g'")).rstrip()
+#MyAPIP = str(commands.getoutput("route | grep "default" | awk {'print $2'}")).rstrip()
+#myserver = serverthread(MyIP,PORT)
+
+class MyHandler(FTPHandler):
+	ConfigFile = os.path.expanduser('~')+'/.config/seamlessync/seamlessync.cnf'
+	config = ConfigParser.RawConfigParser()
+	config.read(ConfigFile)
+
+	def on_connect(self):
+		p = subprocess.Popen("ping -c 1 "+self.remote_ip.rstrip(),stdout=subprocess.PIPE, shell=True)
+		p = subprocess.Popen("arp -an | grep "+self.remote_ip.rstrip()+" | awk {'print $4'}",stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		RemoteMAC = output.rstrip()
+		
+		LegitRemoteMAC = self.config.get("MAC","remote-device")
+		#LegitAPMAC = self.config.get("MAC","access-point")
+		if RemoteMAC != LegitRemoteMAC :
+			self.respond("Connection refused!")
+			self.close_when_done()
+		
+	def on_login(self, username):
+		# do something when user login
+		'''
+		p = subprocess.Popen("ping -c 1 "+self.remote_ip.rstrip(),stdout=subprocess.PIPE, shell=True)
+		p = subprocess.Popen("arp -an | grep "+self.remote_ip.rstrip()+" | awk {'print $4'}",stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		RemoteMAC = output.rstrip()
+		
+		p = subprocess.Popen("route | grep 'default' | awk {'print $2'}",stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		MyAPIP = output.rstrip()
+		
+		p = subprocess.Popen("arp -a "+MyAPIP ,stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		pr = re.compile(ur'(?:[0-9a-fA-F]:?){12}')
+		APMAC = re.findall(pr,output.rstrip())[0]
+		
+		LegitRemoteMAC = self.config.get("MAC","remote-device")
+		#LegitAPMAC = self.config.get("MAC","access-point")
+		if RemoteMAC != LegitRemoteMAC :
+			self.respond("Connection refused!")
+			self.close_when_done()
+		'''
+		pass
+
+class MyServer:
+	def __init__(self,ip,port,directory):
+		self.ip = ip
+		self.port = port
+		self.directory = directory
+
+	def start(self):
+		authorizer = DummyAuthorizer()
+		authorizer.add_user('user', 'pass', self.directory, perm='elradfmwM')
+		handler = MyHandler
+		handler.authorizer = authorizer
+		handler.banner = "pyftpdlib based ftpd ready."
+		address = (self.ip, self.port)
+		self.mserver = FTPServer(address, handler)
+		self.mserver.max_cons = 256
+		self.mserver.max_cons_per_ip = 5
+		self.mserver.serve_forever()
+
+if __name__ == "__main__":
+	ConfigFile = os.path.expanduser('~')+'/.config/seamlessync/seamlessync.cnf'
+	
+	config = ConfigParser.RawConfigParser()
+	config.read(ConfigFile)
+
+	init = config.getboolean("init-setup","flag")
+
+	if(init==False):
+		p = subprocess.Popen("ip addr | grep inet[^6] | grep -v 127.0.0.1 | awk {'print $2'} | sed 's!/[0-9]*!!g'", stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		IP = output.rstrip()
+		
+		p = subprocess.Popen("route | grep 'default' | awk {'print $2'}",stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		MyAPIP = output.rstrip()
+
+		p = subprocess.Popen("arp -a "+MyAPIP ,stdout=subprocess.PIPE, shell=True)
+		(output, err) = p.communicate()
+		pr = re.compile(ur'(?:[0-9a-fA-F]:?){12}')
+		MyAPMAC = re.findall(pr,output.rstrip())[0]
+		
+		RetAPIP = config.get("local","gateway")
+		RetAPMAC = config.get("MAC","access-point")
+		
+		if(RetAPIP == MyAPIP and RetAPMAC == MyAPMAC):
+			PortNum = config.get("local","port")
+
+			serv = MyServer(IP,PortNum,config.get("local","dir"))
+			serv.start()
+
+	else:
+		pass
+

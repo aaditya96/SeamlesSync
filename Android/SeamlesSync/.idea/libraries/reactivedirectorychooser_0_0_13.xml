@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="reactivedirectorychooser-0.0.13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.turhanoz.android/reactivedirectorychooser/0.0.13/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.turhanoz.android/reactivedirectorychooser/0.0.13/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=SeamlesSync
+Comment=Easiest way to keep files in sync
+Exec=/usr/bin/seamlessync
+Path=/usr/bin/
+Icon=/usr/share/seamlessync/media/seamlessync.svg
+Terminal=false
+Type=Application
+Categories=Application;
